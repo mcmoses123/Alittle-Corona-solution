@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/SView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/LLayoutView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/youtube_fragment"
+                android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+                android:layout_width="match_parent"
+                android:layout_height="327dp" />
+
+            <Button
+                android:id="@+id/btnPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Start Codvid Preventing Video" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0.5dp"
+                android:text="Protecting yourself and others from the spread COVID-19"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/tv3"
+                android:drawableLeft="@drawable/bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text="Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. Why? Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/tv4"
+                android:drawableLeft="@drawable/bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_marginTop="5dp"
+                android:text="Maintain at least 1 metre (3 feet) distance between yourself and others. Why? When someone coughs, sneezes, or speaks they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person has the disease."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/tv5"
+                android:drawableLeft="@drawable/bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_marginTop="5dp"
+                android:text="Avoid going to crowded places. Why? Where people come together in crowds, you are more likely to come into close contact with someone that has COIVD-19 and it is more difficult to maintain physical distance of 1 metre (3 feet)."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/tv6"
+                android:drawableLeft="@drawable/bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_marginTop="5dp"
+                android:text="Avoid touching eyes, nose and mouth. Why? Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and infect you."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/tv7"
+                android:drawableLeft="@drawable/bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_marginTop="5dp"
+                android:text="Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately and wash your hands. Why? Droplets spread virus. By following good respiratory hygiene, you protect the people around you from viruses such as cold, flu and COVID-19."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/tv8"
+                android:drawableLeft="@drawable/bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_marginTop="5dp"
+                android:text="Stay home and self-isolate even with minor symptoms such as cough, headache, mild fever, until you recover. Have someone bring you supplies. If you need to leave your house, wear a mask to avoid infecting others. Why? Avoiding contact with others will protect them from possible COVID-19 and other viruses."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/tv9"
+                android:drawableLeft="@drawable/bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_marginTop="5dp"
+                android:text="If you have a fever, cough and difficulty breathing, seek medical attention, but call by telephone in advance if possible and follow the directions of your local health authority. Why? National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/tv10"
+                android:drawableLeft="@drawable/bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:layout_marginTop="5dp"
+                android:text="Keep up to date on the latest information from trusted sources, such as WHO or your local and national health authorities. Why? Local and national authorities are best placed to advise on what people in your area should be doing to protect themselves."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+</ScrollView>
